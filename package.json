@@ -1,0 +1,39 @@
+{
+  "private": false,
+  "name": "vue-flexmonster",
+  "version": "1.0.0",
+  "description": "Flexmonster Pivot Table & Charts with VueJS",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "vue serve Pivot.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
+  },
+  "author": "Vera Didenko",
+  "license": "ISC",
+  "files": [
+    "dist/*"
+  ],
+  "devDependencies": {
+    "bili": "^4.8.1",
+    "flexmonster": "latest",
+    "rollup-plugin-vue": "^5.1.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "peerDependencies": {
+    "flexmonster": "latest"
+  }
+}

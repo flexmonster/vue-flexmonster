@@ -1,5 +1,4 @@
 {
-  "private": false,
   "name": "vue-flexmonster",
   "version": "1.0.0",
   "description": "Flexmonster Pivot Table & Charts with VueJS",
@@ -8,7 +7,10 @@
     "dev": "vue serve Pivot.vue",
     "build": "bili --name index --plugin vue --vue.css false"
   },
-  "author": "Vera Didenko",
+  "author": {
+    "name": "Flexmonster",
+    "email": "help@flexmonster.com"
+  },
   "license": "ISC",
   "files": [
     "dist/*"
@@ -34,5 +36,22 @@
   },
   "peerDependencies": {
     "flexmonster": "latest"
+  },
+  "keywords": [
+    "pivot",
+    "html5",
+    "grid",
+    "table",
+    "pivottable",
+    "pivotgrid",
+    "pivotchart",
+    "vue"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flexmonster/vue-flexmonster"
+  },
+  "bugs": {
+    "url": "https://flexmonster.com/forum/"
   }
 }

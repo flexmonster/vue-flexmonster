@@ -15,7 +15,6 @@
   ],
   "devDependencies": {
     "bili": "^4.8.1",
-    "flexmonster": "latest",
     "rollup-plugin-vue": "^5.1.2",
     "vue-template-compiler": "^2.6.10"
   },

@@ -1,6 +1,6 @@
 {
   "name": "vue-flexmonster",
-  "version": "2.7.18",
+  "version": "1.0.0-beta",
   "description": "Flexmonster Pivot Table & Charts with VueJS",
   "main": "./dist/index.js",
   "scripts": {

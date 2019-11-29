@@ -11,7 +11,7 @@
     "name": "Flexmonster",
     "email": "help@flexmonster.com"
   },
-  "license": "ISC",
+  "license": "MIT",
   "files": [
     "dist/*"
   ],

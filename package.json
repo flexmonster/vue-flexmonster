@@ -5,7 +5,7 @@
   "main": "./dist/index.js",
   "scripts": {
     "dev": "vue serve Pivot.vue",
-    "build": "bili --name index --plugin vue --vue.css false"
+    "build": "bili --bundle-node-modules"
   },
   "author": {
     "name": "Flexmonster",

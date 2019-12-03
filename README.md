@@ -24,6 +24,57 @@ Add Flexmonster Vue module by running in the console:
 npm i vue-flexmonster --save
 ```
 
+## <a name="usage"></a>Usage ##
+
+The Flexmonster Vue module can be used as a plugin or locally.
+
+<a name="usage-plugin"></a>1) Use Flexmonster Vue module as a Vue plugin
+
+1.1) Add the following lines to the main.js file:
+
+```bash
+import Pivot from "vue-flexmonster";
+import 'flexmonster/flexmonster.css';
+
+Vue.use(Pivot);
+```
+
+<a name="usage-locally"></a>2) Register Flexmonster Vue module locally:
+
+2.1) Import `vue-flexmonster` in App.js:
+
+```bash
+import {Pivot} from "vue-flexmonster";
+import 'flexmonster/flexmonster.css';
+
+```
+
+2.2) Add the module to the `components` property in App.js:
+
+```bash
+export default {
+  name: 'app',
+  components: {
+    Pivot
+  }
+}
+
+```
+
+<a name="usage-template"></a>After defining as a plugin or locall component, use the module in `<template></template>` in App.js:
+
+```bash
+<template>
+  <div id="app">
+     <Pivot
+      ref="pivot"
+      v-bind:report="https://cdn.flexmonster.com/reports/report.json"
+    ></Pivot>
+  </div>
+</template>
+
+```
+
 Run your application from the console:
 
 ```bash
@@ -31,8 +82,6 @@ npm run serve
 ```
 
 To see the result open your browser on `http://localhost:8080/`.
-
-## <a name="usage"></a>Usage ##
 
 
 ## <a name="license"></a>License ##

@@ -61,7 +61,7 @@ export default {
 
 ```
 
-<a name="usage-template"></a>After defining as a plugin or locall component, use the module in `<template></template>` in App.js:
+<a name="usage-template"></a>After defining as a plugin or local component, use the module in `<template></template>` in App.js:
 
 ```bash
 <template>

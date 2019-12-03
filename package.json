@@ -3,6 +3,9 @@
   "version": "1.0.0-beta4",
   "description": "VueJS Module for Flexmonster Pivot Table & Charts",
   "main": "./dist/index.js",
+  "module": "./dist/index.esm.min.js",
+  "unpkg": "./dist/index.umd.min.js",
+  "jsdelivr": "./dist/index.umd.min.js",
   "scripts": {
     "dev": "vue serve Pivot.vue",
     "build": "bili --bundle-node-modules"

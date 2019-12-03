@@ -7,6 +7,7 @@
 <script>
 import Flexmonster from "flexmonster";
 export default {
+  name: "Pivot",
   props: {
     afterchartdraw: Function,
     aftergriddraw: Function,

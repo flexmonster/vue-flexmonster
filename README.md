@@ -86,9 +86,9 @@ To see the result open your browser on `http://localhost:8080/`.
 
 ## <a name="license"></a>License ##
 
-Here is [Flexmonster licensing page](https://www.flexmonster.com/pivot-table-editions-and-pricing/). We have free 30 day trial! 
+Here is [Flexmonster licensing page](https://www.flexmonster.com/pivot-table-editions-and-pricing/). We have a free 30-day trial! 
 
-Flexmonster Vue module is released as a MIT-licensed (free and open-source) add-on to Flexmonster Pivot.
+Flexmonster Vue module is released as an MIT-licensed add-on to Flexmonster Pivot.
 
 ## <a name="support-feedback"></a>Support & feedback ##
 

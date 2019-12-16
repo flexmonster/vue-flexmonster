@@ -68,7 +68,7 @@ export default {
   <div id="app">
      <Pivot
       ref="pivot"
-      v-bind:report="https://cdn.flexmonster.com/reports/report.json"
+      v-bind:report="'https://cdn.flexmonster.com/reports/report.json'"
     ></Pivot>
   </div>
 </template>

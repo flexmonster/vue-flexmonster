@@ -41,7 +41,7 @@ Vue.use(Pivot);
 
 <a name="usage-locally"></a>2) Register Flexmonster Vue module locally:
 
-2.1) Import `vue-flexmonster` in App.js:
+2.1) Import `vue-flexmonster` in App.vue:
 
 ```bash
 import {Pivot} from "vue-flexmonster";
@@ -49,7 +49,7 @@ import 'flexmonster/flexmonster.css';
 
 ```
 
-2.2) Add the module to the `components` property in App.js:
+2.2) Add the module to the `components` property in App.vue:
 
 ```bash
 export default {
@@ -61,7 +61,7 @@ export default {
 
 ```
 
-<a name="usage-template"></a>After defining as a plugin or local component, use the module in `<template></template>` in App.js:
+<a name="usage-template"></a>After defining as a plugin or local component, use the module in `<template></template>` in App.vue:
 
 ```bash
 <template>

@@ -6,6 +6,7 @@ This repository holds the source code for using [Flexmonster Pivot](https://www.
 
 * [Getting started](#getting-started)
 * [Usage](#usage)
+* [Sample Project](#sample-project)
 * [License](#license)
 * [Support & feedback](#support-feedback)
 
@@ -102,6 +103,11 @@ npm run serve
 
 
 The project should be available at `http://localhost:8080/`.
+
+
+## <a name="sample-project"></a>Sample Project ##
+
+Please see our [sample Vue project using the Flexmonster Vue module](https://github.com/flexmonster/pivot-vue).
 
 
 ## <a name="license"></a>License ##

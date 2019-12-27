@@ -9,28 +9,40 @@ This repository holds the source code for using [Flexmonster Pivot](https://www.
 * [License](#license)
 * [Support & feedback](#support-feedback)
 
+
+
 ## <a name="getting-started"></a>Getting Started ##
 
-If you don’t have Vue app, you can create it by running in the console:
+###### If you don’t have Vue app, you can create it by running in the console:
 
 ```bash
 vue create my-app
 cd my-app
 ```
 
-Add Flexmonster Vue module by running in the console:
+
+###### Install the Flexmonster Vue module by running in the console:
 
 ```bash
-npm i vue-flexmonster --save
+npm i --save vue-flexmonster
 ```
+
+
+###### Install the Flexmonster module by running in the console:
+
+```bash
+npm i --save flexmonster
+```
+
 
 ## <a name="usage"></a>Usage ##
 
 The Flexmonster Vue module can be used as a plugin or locally.
 
-#### <a name="usage-plugin"></a>1) Use Flexmonster Vue module as a Vue plugin
 
-1.1) Add the following lines to the main.js file:
+#### 1) Use Flexmonster Vue module as a Vue plugin
+
+###### 1.1) Add the following lines to the main.js file:
 
 ```bash
 import Pivot from "vue-flexmonster";
@@ -39,9 +51,12 @@ import 'flexmonster/flexmonster.css';
 Vue.use(Pivot);
 ```
 
-#### <a name="usage-locally"></a>2) Register Flexmonster Vue module locally:
+Now Pivot can be used by any component in your application.
 
-2.1) Import `vue-flexmonster` in App.vue:
+
+#### 2) Register Flexmonster Vue module locally:
+
+###### 2.1) Import `vue-flexmonster` in App.vue:
 
 ```bash
 import {Pivot} from "vue-flexmonster";
@@ -49,7 +64,8 @@ import 'flexmonster/flexmonster.css';
 
 ```
 
-2.2) Add the module to the `components` property in App.vue:
+
+###### 2.2) Add the module to the `components` property in App.vue:
 
 ```bash
 export default {
@@ -61,27 +77,31 @@ export default {
 
 ```
 
-#### <a name="usage-template"></a>After defining as a plugin or local component, use the module in `<template></template>` in App.vue:
+
+#### After defining as a plugin or local component, include the module in `<template></template>` in App.vue:
 
 ```bash
 <template>
   <div id="app">
      <Pivot
       ref="pivot"
+      toolbar
       v-bind:report="'https://cdn.flexmonster.com/reports/report.json'"
-    ></Pivot>
+     ></Pivot>
   </div>
 </template>
 
 ```
 
-Run your application from the console:
+
+###### Run your application from the console:
 
 ```bash
 npm run serve
 ```
 
-To see the result open your browser on `http://localhost:8080/`.
+
+The project should be available at `http://localhost:8080/`.
 
 
 ## <a name="license"></a>License ##
@@ -89,6 +109,7 @@ To see the result open your browser on `http://localhost:8080/`.
 Here is [Flexmonster licensing page](https://www.flexmonster.com/pivot-table-editions-and-pricing/). We have a free 30-day trial! 
 
 Flexmonster Vue module is released as an MIT-licensed add-on to Flexmonster Pivot.
+
 
 ## <a name="support-feedback"></a>Support & feedback ##
 

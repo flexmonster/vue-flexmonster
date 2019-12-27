@@ -28,7 +28,7 @@ npm i vue-flexmonster --save
 
 The Flexmonster Vue module can be used as a plugin or locally.
 
-<a name="usage-plugin"></a>1) Use Flexmonster Vue module as a Vue plugin
+#### <a name="usage-plugin"></a>1) Use Flexmonster Vue module as a Vue plugin
 
 1.1) Add the following lines to the main.js file:
 
@@ -39,7 +39,7 @@ import 'flexmonster/flexmonster.css';
 Vue.use(Pivot);
 ```
 
-<a name="usage-locally"></a>2) Register Flexmonster Vue module locally:
+#### <a name="usage-locally"></a>2) Register Flexmonster Vue module locally:
 
 2.1) Import `vue-flexmonster` in App.vue:
 
@@ -61,7 +61,7 @@ export default {
 
 ```
 
-<a name="usage-template"></a>After defining as a plugin or local component, use the module in `<template></template>` in App.vue:
+#### <a name="usage-template"></a>After defining as a plugin or local component, use the module in `<template></template>` in App.vue:
 
 ```bash
 <template>

@@ -16,6 +16,7 @@ export default {
     cellclick: Function,
     celldoubleclick: Function,
     componentFolder: String,
+    customizeAPIRequest: Function,
     customizeCell: Function,
     customizeContextMenu: Function,
     datachanged: Function,

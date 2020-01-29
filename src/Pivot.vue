@@ -23,6 +23,8 @@ export default {
     dataerror: Function,
     datafilecancelled: Function,
     dataloaded: Function,
+    drillthroughclose: Function,
+    drillthroughopen: Function,
     fieldslistclose: Function,
     fieldslistopen: Function,
     filterclose: Function,

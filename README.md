@@ -104,6 +104,7 @@ npm run serve
 
 The project should be available at `http://localhost:8080/`.
 
+For more details please refer to [Flexmonster Integration with Vue](https://www.flexmonster.com/doc/integration-with-vue/) tutorial.
 
 ## <a name="sample-project"></a>Sample Project ##
 

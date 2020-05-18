@@ -1,6 +1,6 @@
 {
   "name": "vue-flexmonster",
-  "version": "2.8.6",
+  "version": "2.8.7",
   "description": "VueJS Module for Flexmonster Pivot Table & Charts",
   "main": "./dist/index.js",
   "module": "./dist/index.esm.min.js",

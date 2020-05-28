@@ -17,6 +17,7 @@ export default {
     celldoubleclick: Function,
     componentFolder: String,
     customizeCell: Function,
+    customizeChartElement: Function,
     customizeContextMenu: Function,
     datachanged: Function,
     dataerror: Function,

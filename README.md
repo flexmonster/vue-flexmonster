@@ -1,6 +1,6 @@
 # Vue module for Flexmonster Pivot Table & Charts 
 [![Flexmonster Pivot Table & Charts](https://s3.amazonaws.com/flexmonster/github/fm-github-cover.png)](https://flexmonster.com)
-
+Website: www.flexmonster.com
 
 This repository holds the source code for using [Flexmonster Pivot](https://www.flexmonster.com/) in [Vue](https://vuejs.org/) applications. 
 
@@ -104,6 +104,7 @@ npm run serve
 
 The project should be available at `http://localhost:8080/`.
 
+For more details please refer to [Flexmonster Integration with Vue](https://www.flexmonster.com/doc/integration-with-vue/) tutorial.
 
 ## <a name="sample-project"></a>Sample Project ##
 

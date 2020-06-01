@@ -62,7 +62,6 @@ Now Pivot can be used by any component in your application.
 ```bash
 import {Pivot} from "vue-flexmonster";
 import 'flexmonster/flexmonster.css';
-
 ```
 
 
@@ -75,7 +74,6 @@ export default {
     Pivot
   }
 }
-
 ```
 
 
@@ -91,7 +89,6 @@ After defining as a plugin or local component, include the module in `<template>
      ></Pivot>
   </div>
 </template>
-
 ```
 
 

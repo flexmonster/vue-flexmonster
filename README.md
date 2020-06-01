@@ -41,7 +41,7 @@ npm i --save flexmonster
 The Flexmonster Vue module can be used as a plugin or locally.
 
 
-#### 1) Use Flexmonster Vue module as a Vue plugin
+### 1) Use Flexmonster Vue module as a Vue plugin
 
 1.1) Add the following lines to the main.js file:
 
@@ -55,7 +55,7 @@ Vue.use(Pivot);
 Now Pivot can be used by any component in your application.
 
 
-#### 2) Register Flexmonster Vue module locally:
+### 2) Register Flexmonster Vue module locally
 
 2.1) Import `vue-flexmonster` in App.vue:
 

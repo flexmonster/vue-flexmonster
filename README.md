@@ -42,7 +42,7 @@ The Flexmonster Vue module can be used as a plugin or locally.
 
 ### 1) Use Flexmonster Vue module as a Vue plugin
 
-1.1) Add the following lines to the main.js file:
+1.1) Add the following lines to the `main.js` file:
 
 ```bash
 import Pivot from "vue-flexmonster";
@@ -51,7 +51,7 @@ import 'flexmonster/flexmonster.css';
 Vue.use(Pivot);
 ```
 
-Now Pivot can be used by any component in your application.
+Now Pivot can be used by any Vue component in your application.
 
 ### 2) Register Flexmonster Vue module locally
 

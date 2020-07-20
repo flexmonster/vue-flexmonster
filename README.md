@@ -88,7 +88,7 @@ export default {
 </template>
 ```
 
-### 4) Run te project
+### 4) Run the project
 4.1) Run your application from the console:
 
 ```bash

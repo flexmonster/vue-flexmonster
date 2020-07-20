@@ -73,7 +73,8 @@ export default {
 }
 ```
 
-2.3) After defining as a plugin or local component, include the module in `<template></template>` in `App.vue`:
+### 3) Add the module to the template section
+3.1) After defining as a plugin or local component, include the module in `<template></template>` in `App.vue`:
 
 ```bash
 <template>
@@ -87,7 +88,8 @@ export default {
 </template>
 ```
 
-2.4) Run your application from the console:
+### 4) Run te project
+4.1) Run your application from the console:
 
 ```bash
 npm run serve

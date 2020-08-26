@@ -34,6 +34,7 @@ export default {
     global: Object,
     height: [String, Number],
     licenseKey: String,
+    licenseFilePath: String,
     loadingdata: Function,
     loadinglocalization: Function,
     loadingolapstructure: Function,

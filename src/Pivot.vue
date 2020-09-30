@@ -55,6 +55,7 @@ export default {
     reportfileloaded: Function,
     runningquery: Function,
     toolbar: Boolean,
+    unauthorizederror: Function,
     update: Function,
     width: [Number, String]
   },

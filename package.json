@@ -38,10 +38,10 @@
     }
   },
   "peerDependencies": {
-    "flexmonster": "2.8.22-1"
+    "flexmonster": "2.8.23"
   },
   "dependencies": {
-    "flexmonster": "2.8.22-1"
+    "flexmonster": "2.8.23"
   },
   "keywords": [
     "pivot",

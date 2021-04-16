@@ -57,7 +57,8 @@ export default {
     toolbar: Boolean,
     unauthorizederror: Function,
     update: Function,
-    width: [Number, String]
+    width: [Number, String],
+    accessibility: Object
   },
   mounted: function() {
     this.flexmonster = new Flexmonster({

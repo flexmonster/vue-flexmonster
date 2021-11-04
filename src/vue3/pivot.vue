@@ -1,13 +1,10 @@
-<!--HTML related information for displaying the component-->
-<template>
-  <div>Pivot</div>
-</template>
-
 <!--JavaScript related information for the component's logic-->
 <script>
+import { defineComponent } from 'vue';
 import Flexmonster from "flexmonster";
-export default {
-  name: "Pivot",
+
+export default /*#__PURE__*/defineComponent({
+  name: 'Pivot', // vue component name
   props: {
     afterchartdraw: Function,
     aftergriddraw: Function,
@@ -69,10 +66,15 @@ export default {
   beforeUpdate() {
     return false;
   }
-};
+});
 </script>
+
+<!--HTML related information for displaying the component-->
+<template>
+  <div>Pivot</div>
+</template>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@import "~flexmonster/flexmonster.min.css";
+  @import "~flexmonster/flexmonster.min.css";
 </style>

@@ -1,47 +1,64 @@
 {
   "name": "vue-flexmonster",
-  "version": "2.9.11",
-  "description": "VueJS Module for Flexmonster Pivot Table & Charts",
-  "main": "./dist/index.js",
-  "module": "./dist/index.esm.min.js",
-  "unpkg": "./dist/index.umd.min.js",
-  "jsdelivr": "./dist/index.umd.min.js",
-  "scripts": {
-    "dev": "vue serve Pivot.vue",
-    "build": "bili --bundle-node-modules"
-  },
-  "author": {
-    "name": "Flexmonster",
-    "email": "help@flexmonster.com"
-  },
+  "version": "2.9.12-beta.1",
   "license": "MIT",
+  "description": "Vue 2 and Vue 3 Module for Flexmonster Pivot Table & Charts",
+  "main": "dist/index.ssr.js",
+  "browser": "dist/index.esm.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.min.js",
   "files": [
-    "dist/*"
+    "dist/*",
+    "vue3/*"
   ],
-  "devDependencies": {
-    "bili": "^4.8.1",
-    "rollup-plugin-vue": "=5.1.1",
-    "vue-template-compiler": "^2.6.10"
+  "sideEffects": false,
+  "scripts": {
+    "serve": "vue-cli-service serve dev/serve.js",
+    "prebuild": "rimraf ./dist && rimraf ./vue3",
+    "build": "npm run build:vue2 && npm run build:vue3",
+    "build:vue3": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
+    "build:vue3:ssr": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format cjs",
+    "build:vue3:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
+    "build:vue3:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife",
+    "build:vue2": "cross-env NODE_ENV=production rollup --config build/rollup2.config.js",
+    "build:vue2:ssr": "cross-env NODE_ENV=production rollup --config build/rollup2.config.js --format cjs",
+    "build:vue2:es": "cross-env NODE_ENV=production rollup --config build/rollup2.config.js --format es",
+    "build:vue2:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup2.config.js --format iife"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
+  "dependencies": {
+    "flexmonster": "2.9.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@rollup/plugin-alias": "^3.1.2",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-replace": "^2.4.2",
+    "@vue/cli-plugin-babel": "^4.5.13",
+    "@vue/cli-service": "^4.5.13",
+    "@vue/compiler-sfc": "^3.0.11",
+    "cross-env": "^7.0.3",
+    "minimist": "^1.2.5",
+    "postcss": "^8.2.10",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.52.8",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-vue": "^6.0.0",
+    "rollup-plugin-vue2": "npm:rollup-plugin-vue@^5.1.9",
+    "vue-template-compiler": "^2.6.14"
   },
   "peerDependencies": {
     "flexmonster": "2.9.11"
   },
-  "dependencies": {
-    "flexmonster": "2.9.11"
+  "engines": {
+    "node": ">=12"
+  },
+  "author": {
+    "name": "Flexmonster",
+    "email": "help@flexmonster.com"
   },
   "keywords": [
     "pivot",
@@ -51,14 +68,16 @@
     "pivottable",
     "pivotgrid",
     "pivotchart",
-    "vue"
+    "vue",
+    "vue3",
+    "vue2"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/flexmonster/vue-flexmonster"
   },
   "bugs": {
-    "url": "https://flexmonster.com/forum/"
+    "url": "https://www.flexmonster.com/technical-support/"
   },
   "homepage": "https://flexmonster.com/"
 }

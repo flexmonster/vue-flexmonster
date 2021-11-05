@@ -3,7 +3,7 @@
   "version": "2.9.12-beta.1",
   "license": "MIT",
   "description": "Vue 2 and Vue 3 Module for Flexmonster Pivot Table & Charts",
-  "main": "dist/index.ssr.js",
+  "main": "dist/index.js",
   "browser": "dist/index.esm.js",
   "module": "dist/index.esm.js",
   "unpkg": "dist/index.min.js",

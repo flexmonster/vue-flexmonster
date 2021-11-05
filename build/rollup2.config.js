@@ -116,7 +116,7 @@ if (!argv.format || argv.format === 'cjs') {
     external,
     output: {
       compact: true,
-      file: 'dist/index.ssr.js',
+      file: 'dist/index.js',
       format: 'cjs',
       name: 'Pivot',
       exports: 'auto',

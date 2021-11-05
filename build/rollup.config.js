@@ -122,7 +122,7 @@ if (!argv.format || argv.format === 'cjs') {
     external,
     output: {
       compact: true,
-      file: 'vue3/index.ssr.js',
+      file: 'vue3/index.js',
       format: 'cjs',
       name: 'Pivot',
       exports: 'auto',

@@ -15,9 +15,9 @@ This repository holds the source code for using [Flexmonster Pivot](https://www.
 
 ## <a name="usage"></a>Usage ##
 
-Refer to [Flexmonster Integration with Vue](https://www.flexmonster.com/doc/integration-with-vue) tutorial for details on the Flexmonster Vue module usage.
+Refer to [Flexmonster Integration with Vue](https://www.flexmonster.com/doc/integration-with-vue-2) tutorial for details on the Flexmonster Vue module usage.
 
-For Vue 3, check the [Flexmonster Integration with Vue 3](https://www.flexmonster.com/doc/integration-with-vue/#integration-vue3) section.
+For Vue 3, check the [Flexmonster Integration with Vue 3](https://www.flexmonster.com/doc/integration-with-vue-2/#integration-vue3) section.
 
 ## <a name="sample-project"></a>Sample Project ##
 

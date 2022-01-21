@@ -51,6 +51,7 @@ export default /*#__PURE__*/defineComponent({
     reportfileerror: Function,
     reportfileloaded: Function,
     runningquery: Function,
+    sortFieldsList: Function,
     toolbar: Boolean,
     unauthorizederror: Function,
     update: Function,

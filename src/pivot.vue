@@ -50,6 +50,7 @@ export default /*#__PURE__*/{
     reportfileerror: Function,
     reportfileloaded: Function,
     runningquery: Function,
+    sortFieldsList: Function,
     toolbar: Boolean,
     unauthorizederror: Function,
     update: Function,

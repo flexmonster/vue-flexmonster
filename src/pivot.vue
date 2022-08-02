@@ -55,7 +55,8 @@ export default /*#__PURE__*/{
     unauthorizederror: Function,
     update: Function,
     width: [Number, String],
-    accessibility: Object
+    accessibility: Object,
+    shareReportConnection: Object
   },
   mounted: function() {
     this.flexmonster = new Flexmonster({

@@ -75,8 +75,3 @@ export default /*#__PURE__*/defineComponent({
 <template>
   <div>Pivot</div>
 </template>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-  @import "~flexmonster/flexmonster.min.css";
-</style>

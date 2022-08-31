@@ -49,7 +49,6 @@ export default /*#__PURE__*/defineComponent({
     reportcomplete: Function,
     reportfilecancelled: Function,
     reportfileerror: Function,
-    reportfileloaded: Function,
     runningquery: Function,
     sortFieldsList: Function,
     toolbar: Boolean,

@@ -48,7 +48,6 @@ export default /*#__PURE__*/{
     reportcomplete: Function,
     reportfilecancelled: Function,
     reportfileerror: Function,
-    reportfileloaded: Function,
     runningquery: Function,
     sortFieldsList: Function,
     toolbar: Boolean,

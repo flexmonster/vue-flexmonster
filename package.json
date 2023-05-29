@@ -1,6 +1,6 @@
 {
   "name": "vue-flexmonster",
-  "version": "2.9.51-1",
+  "version": "2.9.52",
   "license": "MIT",
   "description": "Vue 2 and Vue 3 Module for Flexmonster Pivot Table & Charts",
   "main": "dist/index.js",

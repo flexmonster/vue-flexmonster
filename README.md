@@ -11,17 +11,17 @@ This package is a [Flexmonster Pivot](https://www.flexmonster.com/) wrapper for 
 Table of contents:
 
 * [Usage](#usage)
-* [Sample Project](#sample-project)
+* [Sample project](#sample-project)
 * [License](#license)
-* [Support & feedback](#support-feedback)
+* [Support and feedback](#support-feedback)
 
 ## <a name="usage"></a>Usage ##
 
-Refer to [Flexmonster Integration with Vue 3](https://www.flexmonster.com/doc/integration-with-vue-3) for details on the wrapper usage in Vue 3.
+Refer to the [Integration with Vue 3](https://www.flexmonster.com/doc/integration-with-vue-3) guide for details on the wrapper usage in Vue 3.
 
 To integrate with Vue 2, check out this guide: [Integration with Vue 2](https://www.flexmonster.com/doc/integration-with-vue-2/).
 
-## <a name="sample-project"></a>Sample Project ##
+## <a name="sample-project"></a>Sample project ##
 
 See our [sample Vue project with Flexmonster](https://github.com/flexmonster/pivot-vue).
 
@@ -31,6 +31,6 @@ Here is the [Flexmonster licensing page](https://www.flexmonster.com/pivot-table
 
 Flexmonster Vue wrapper is released as an MIT-licensed (free and open-source) add-on to Flexmonster Pivot.
 
-## <a name="support-feedback"></a>Support & feedback ##
+## <a name="support-feedback"></a>Support and feedback ##
 
 Please share your feedback or ask questions via [Flexmonster Help Center](https://www.flexmonster.com/help-center/).

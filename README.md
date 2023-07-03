@@ -27,7 +27,7 @@ See our [sample Vue project with Flexmonster](https://github.com/flexmonster/piv
 
 ## <a name="license"></a>License ##
 
-Here is the [Flexmonster licensing page](https://www.flexmonster.com/pivot-table-editions-and-pricing?r=wrap_vue). We have a free 30-day trial! 
+Here is the [Flexmonster licensing page](https://www.flexmonster.com/pivot-table-editions-and-pricing?r=wrap_vue). We have a 30-day free trial! 
 
 Flexmonster Vue wrapper is released as an MIT-licensed (free and open-source) add-on to Flexmonster Pivot.
 

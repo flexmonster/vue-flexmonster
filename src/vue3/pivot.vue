@@ -64,6 +64,12 @@ export default /*#__PURE__*/defineComponent({
       container: this.$el
     });
   },
+  unmounted: function() {
+    if (this.flexmonster) {
+      this.flexmonster.dispose();
+      this.flexmonster = null;
+    }
+  },
   beforeUpdate() {
     return false;
   }

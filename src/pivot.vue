@@ -29,7 +29,7 @@ export default /*#__PURE__*/{
     fullscreen: Function,
     global: Object,
     height: [String, Number],
-    licenseKey: String,
+    licenseKey: [String, Array],
     licenseFilePath: String,
     loadingdata: Function,
     loadinglocalization: Function,

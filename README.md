@@ -8,9 +8,9 @@ Website: [flexmonster.com](https://www.flexmonster.com?r=wrap_vue)
 
 ## Flexmonster Pivot Table & Charts
 
-Flexmonster Pivot Table & Charts is a powerful and fully customizable JavaScript component for web reporting. It is packed with all core features for data analysis and can easily become a part of your Vue data visualization project. The tool supports popular frameworks like React, Vue, Blazor, Angular and [more](https://www.flexmonster.com/doc/available-tutorials-integration?r=wrap_vue). Also, Flexmonster connects to any data source, including SQL and NoSQL databases, JSON and CSV files, OLAP cubes, and Elasticsearch. 
+Flexmonster Pivot Table & Charts is a powerful and fully customizable JavaScript component for web reporting. It is packed with all core features for data analysis and can easily become a part of your Vue data visualization project. The tool supports popular frameworks like React, Vue, Angular, Blazor, and [more](https://www.flexmonster.com/doc/available-tutorials-integration?r=wrap_vue). Also, Flexmonster connects to [any data source](https://www.flexmonster.com/doc/supported-data-sources?r=wrap_vue), including SQL and NoSQL databases, JSON and CSV files, OLAP cubes, and Elasticsearch. 
 
-This package is a [Flexmonster Pivot](https://www.flexmonster.com?r=wrap_vue) wrapper for [Vue 2](https://v2.vuejs.org/) and [Vue 3](https://vuejs.org) applications.
+This package is a [Flexmonster Pivot](https://www.flexmonster.com?r=wrap_vue) wrapper for [Vue 3](https://vuejs.org) and [Vue 2](https://v2.vuejs.org/) applications.
 
 Table of contents:
 
@@ -32,32 +32,31 @@ The tutorial for Vue 3 is also available in video format on our YouTube channel:
 
 ## Usage
 
-The wrapper provides  the `<Pivot>` component to add the pivot table to the Vue project. Read more about the available props and how to use them in the [the `<Pivot>` component](https://www.flexmonster.com/doc/pivot-component-for-vue-3?r=wrap_vue) documentation.
+The wrapper provides  the `<Pivot>` component to add the pivot table to the Vue project. Read more about the available props and how to use them in the [the <Pivot> component](https://www.flexmonster.com/doc/pivot-component-for-vue-3?r=wrap_vue) documentation.
 
-Explore the available [methods and events](https://www.flexmonster.com/doc/using-methods-and-events-vue-3?r=wrap_vue) to learn the specifics of using and customizing Flexmonster in a Vue 3 application.
+Explore the available [methods and events](https://www.flexmonster.com/doc/using-methods-and-events-vue-3?r=wrap_vue) to learn the specifics of using and customizing Flexmonster in a Vue application.
 
 ## Sample project
 
-If you look for some reference examples, our team prepared a ready-to-use [Vue 3 and Vue 2 pivot grid sample projects](https://github.com/flexmonster/pivot-vue?r=wrap_vue) with live demos of the most popular use cases. Visit the [Vue 3 usage examples documentation](https://www.flexmonster.com/doc/usage-examples-vue-3?r=wrap_vue) page to learn more on how the cases were implemented in a Vue 3 project or [Vue 2 usage examples](https://www.flexmonster.com/doc/usage-examples-vue-3?r=wrap_vue) page if you are interested in older version.
-
-In our documentation, you can also find [a guide for the sample Vue 3 application](https://www.flexmonster.com/doc/sample-vue-3-project/?r=wrap_vue) and for [the sample Vue 2 application](https://www.flexmonster.com/doc/sample-vue-2-project/?r=wrap_vue). There you can learn how to run it and what's inside.
+If you look for some reference examples, our team prepared ready-to-use [Vue pivot grid sample projects](https://github.com/flexmonster/pivot-vue?r=wrap_vue) with live demos of the most popular use cases. Visit the [Vue usage examples](https://www.flexmonster.com/doc/usage-examples-vue-3?r=wrap_vue) page to see how the cases were implemented in a Vue project.
+In our documentation, you can also find a [sample Vue application](https://www.flexmonster.com/doc/sample-vue-3-project/?r=wrap_vue). There, you can learn how to run it and what's inside.
 
 
 
 ## Support and feedback
 
-In case of any issues, visit our [troubleshooting section](https://www.flexmonster.com/doc/typical-errors?r=wrap_vue). You can also search among the [resolved cases](https://www.flexmonster.com/technical-support?r=wrap_vue) for a solution to your problem.
+In case of any issues, visit our [Troubleshooting](https://www.flexmonster.com/doc/typical-errors?r=wrap_vue) section. You can also search among the [resolved cases](https://www.flexmonster.com/technical-support?r=wrap_vue) for a solution to your issue.
 
-To share your feedback or ask questions, contact our Tech team by raising a ticket on [Flexmonster Help Center](https://www.flexmonster.com/help-center?r=wrap_vue). You can also find a list of samples, technical specifications, and a user interface guide there.
-
-If you need any help with your license — fill out our [Contact form](https://www.flexmonster.com/contact-our-team?r=wrap_vue), and we will get in touch with you.
+To share your feedback or ask questions, contact our Tech team by raising a ticket on our [Help Center](https://www.flexmonster.com/help-center?r=wrap_vue). You can also find a list of samples, technical specifications, and a user interface guide there.
 
 ## License
 
-Flexmonster Vue wrapper is released as an MIT-licensed (free and open-source) add-on to Flexmonster Pivot.
+The Flexmonster Vue wrapper is released as an MIT-licensed (free and open-source) add-on to Flexmonster Pivot.
 
 To learn about Flexmonster Pivot licenses, visit the [Flexmonster licensing page](https://www.flexmonster.com/pivot-table-editions-and-pricing?r=wrap_vue). 
 If you want to test our product, we provide a 30-day free trial.
+
+If you need any help with your license, fill out our [Contact form](https://www.flexmonster.com/contact-our-team?r=wrap_vue), and we will get in touch with you.
 
 ## Social media
 

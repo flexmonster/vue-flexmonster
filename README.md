@@ -32,13 +32,14 @@ The tutorial for Vue 3 is also available in video format on our YouTube channel:
 
 ## Usage
 
-The wrapper provides  the `<Pivot>` component to add the pivot table to the Vue project. Read more about the available props and how to use them in the [the <Pivot> component](https://www.flexmonster.com/doc/pivot-component-for-vue-3?r=wrap_vue) documentation.
+The wrapper provides  the `<Pivot>` component to add the pivot table to the Vue project. Read more about the available props and how to use them in the [\<Pivot>\ component](https://www.flexmonster.com/doc/pivot-component-for-vue-3?r=wrap_vue) documentation.
 
 Explore the available [methods and events](https://www.flexmonster.com/doc/using-methods-and-events-vue-3?r=wrap_vue) to learn the specifics of using and customizing Flexmonster in a Vue application.
 
 ## Sample project
 
 If you look for some reference examples, our team prepared ready-to-use [Vue pivot grid sample projects](https://github.com/flexmonster/pivot-vue?r=wrap_vue) with live demos of the most popular use cases. Visit the [Vue usage examples](https://www.flexmonster.com/doc/usage-examples-vue-3?r=wrap_vue) page to see how the cases were implemented in a Vue project.
+
 In our documentation, you can also find a [sample Vue application](https://www.flexmonster.com/doc/sample-vue-3-project/?r=wrap_vue). There, you can learn how to run it and what's inside.
 
 
@@ -60,6 +61,6 @@ If you need any help with your license, fill out our [Contact form](https://www.
 
 ## Social media
 
-Follow us on social media and stay updated on our development process!
+Follow us on social media and stay updated on our development process.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/company/flexmonster) [![YouTube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/user/FlexMonsterPivot) [![Twitter](https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/flexmonster)

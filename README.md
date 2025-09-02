@@ -32,7 +32,7 @@ The tutorial for Vue 3 is also available in video format on our YouTube channel:
 
 ## Usage
 
-The wrapper provides  the `<Pivot>` component to add the pivot table to the Vue project. Read more about the available props and how to use them in the [\<Pivot\> component](https://www.flexmonster.com/doc/pivot-component-for-vue-3?r=wrap_vue) documentation.
+The wrapper provides  the `<Pivot>` component to add the pivot table to the Vue project. Read more about the available props and how to use them in the [\<Pivot\> component documentation](https://www.flexmonster.com/doc/pivot-component-for-vue-3?r=wrap_vue).
 
 Explore the available [methods and events](https://www.flexmonster.com/doc/using-methods-and-events-vue-3?r=wrap_vue) to learn the specifics of using and customizing Flexmonster in a Vue application.
 

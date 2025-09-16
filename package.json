@@ -1,8 +1,8 @@
 {
   "name": "vue-flexmonster",
   "version": "2.9.112",
-  "license": "MIT",
-  "description": "Vue 2 and Vue 3 wrapper for Flexmonster Pivot Table and Charts",
+  "license": "https://www.flexmonster.com/software-license-agreement/",
+  "description": "Vue 3 and Vue 2 wrapper for Flexmonster Pivot Table and Charts",
   "main": "dist/index.js",
   "browser": "dist/index.esm.js",
   "module": "dist/index.esm.js",
